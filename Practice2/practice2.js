@@ -28,3 +28,39 @@ let z = 10;
 z += 5;
 z *= 2;
 console.log(z);
+
+
+// -------------------------------------------------------
+console.log("--------------------------");
+
+
+let c = "4";
+let d = 4;
+console.log("c > d:", c > d);
+console.log("c < d:", c < d);
+console.log("c >= d:", c >= d);
+console.log("c <= d:", c <= d);
+console.log("c === d:", c === d);
+console.log("c !== d:", c !== d);
+console.log("c == d:", c == d);
+console.log("c != d:", c != d);
+
+let e = true;
+let f = false;
+
+console.log("AND:" , e && f);
+console.log("OR:", e || f);
+console.log("NOT e:", !e);
+console.log("NOT f:", !f);
+
+let age = 8;
+let result3 = age >= 18 ? "Adult" : "Minor";
+console.log(result3);
+
+console.log("Type of a:", typeof d);
+
+let name = "Fenil";
+console.log("Hello " + name);
+
+let value = 10 + 5 * 2;
+console.log("Precedence:", value);
