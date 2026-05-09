@@ -1,3 +1,5 @@
+/*
+
 let val = prompt("Enter a number");
 for(let i=1;i<=val;i++){
     if(i%2 === 0){
@@ -6,3 +8,5 @@ for(let i=1;i<=val;i++){
         console.log(`${i} is odd`);
     }
 }
+
+*/
