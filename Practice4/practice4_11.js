@@ -1,3 +1,5 @@
+/*
+
 countOdd = 0;
 countEven = 0;
 for(let i=1;i<=50;i++){
@@ -9,3 +11,5 @@ for(let i=1;i<=50;i++){
 }
 console.log(`Count of odd numbers: ${countOdd}`);
 console.log(`Count of even numbers: ${countEven}`);
+
+*/
