@@ -1,3 +1,5 @@
+/*
+
 // Array : foreach, map, filter, reduce, find, some, every
 
 let arr = [10,20,30,40,50,60,70];
@@ -45,3 +47,4 @@ let xyz = arr.every(function(val){      // xyz() -> return only true/false
 console.log(xyz);
 
 
+*/
