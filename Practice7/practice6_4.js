@@ -1,4 +1,4 @@
-
+/*
 
 // Object Looping : for-in , Object.keys, Object.entries
 
@@ -13,3 +13,7 @@ for(let key in obj){
 }
 
 console.log(Object.keys(obj));      // badhi key ne array ma nakhi de
+
+console.log(Object.entries(obj));       // Array of array created
+
+*/
