@@ -1,6 +1,6 @@
-/*
 
-// Object Looping : for-in
+
+// Object Looping : for-in , Object.keys, Object.entries
 
 let obj = {
     name: "Krehant",
@@ -12,4 +12,4 @@ for(let key in obj){
     console.log(key, obj[key]);
 }
 
-*/
+console.log(Object.keys(obj));      // badhi key ne array ma nakhi de
