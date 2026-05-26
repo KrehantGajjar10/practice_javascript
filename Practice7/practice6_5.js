@@ -8,3 +8,6 @@ let obj = {
 
 let obj2 = {...obj};
 console.log(obj2);
+
+let obj3 = Object.assign({ price: 100000}, obj);
+console.log(obj3);
