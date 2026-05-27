@@ -1,3 +1,5 @@
+/*
+
 // Optional chaining
 
 let obj = {
@@ -10,3 +12,4 @@ let obj = {
 };
 console.log(obj?.address?.city);
 
+*/
