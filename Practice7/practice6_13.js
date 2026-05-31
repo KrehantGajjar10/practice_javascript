@@ -13,4 +13,11 @@ const locations = {
 };
 console.log(locations?.coordinates?.lat);
 
+// Destructure the city and lat from the location object above.
+
+let {city} = locations;
+let {lat} = locations.coordinate;
+console.log(city);
+console.log(lat);
+
 */
