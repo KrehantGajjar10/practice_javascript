@@ -11,4 +11,7 @@ console.log(abc);
 let ab = document.querySelector("h1");
 console.dir(ab);
 
+let a = document.querySelectorAll("h1");
+console.log(a);
+
 */
