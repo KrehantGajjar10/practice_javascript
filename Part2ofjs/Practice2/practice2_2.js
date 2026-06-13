@@ -13,3 +13,10 @@ input.addEventListener("input",function (dets) {
         console.log(dets.data);
     }
 });
+
+// change
+let sel = document.querySelector("select");
+let seldevice = document.querySelector("#seldevice");
+sel.addEventListener("change",function(dets){
+    seldevice.textContent = `${dets.target.value} Device Selected`; 
+});
