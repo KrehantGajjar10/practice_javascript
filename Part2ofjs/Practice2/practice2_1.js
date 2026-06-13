@@ -1,7 +1,15 @@
+/*
+
 // Events and event handling
 // Event binding: addEventListener, removeEventListener
 
 let p = document.querySelector("p");
-p.addEventListener("click",function(){
-    p.style.color = "green";
-});
+
+function click() {
+    p.style.color = "yellow";
+}
+
+p.addEventListener("click",click);
+p.removeEventListener("click",click);
+
+*/
