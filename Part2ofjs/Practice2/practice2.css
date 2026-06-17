@@ -20,7 +20,7 @@ h3{
     color: #ffffff;
     font-size: 25px;
 }
-#main ,#main2{
+#main ,#main2, #main3{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,7 @@ h2{
     font-size: 10rem;
 }
 
-input{
+#fileinp{
     display: none;
 }
 
@@ -46,3 +46,9 @@ input{
 #main2 #btn:hover{
     background-color:rgb(41, 95, 80) ;
 }
+
+ input{
+    display: block;
+    margin: 2px;
+ }
+ 
