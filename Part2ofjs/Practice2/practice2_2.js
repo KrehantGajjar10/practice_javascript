@@ -1,3 +1,5 @@
+/*
+
 // Common Events: click, input, change, submit, mouseover, keyup
 
 // click
@@ -20,3 +22,5 @@ let seldevice = document.querySelector("#seldevice");
 sel.addEventListener("change",function(dets){
     seldevice.textContent = `${dets.target.value} Device Selected`; 
 });
+
+*/

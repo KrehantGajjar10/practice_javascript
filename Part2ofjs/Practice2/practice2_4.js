@@ -1,3 +1,5 @@
+/*
+
 // Problem : Upload file using div section
 
 let btn = document.querySelector("#btn");
@@ -13,3 +15,5 @@ fileinp.addEventListener("change",function(dets){
         btn.textContent = file.name;
     }
 });
+
+*/
