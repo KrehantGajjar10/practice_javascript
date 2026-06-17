@@ -23,4 +23,15 @@ sel.addEventListener("change",function(dets){
     seldevice.textContent = `${dets.target.value} Device Selected`; 
 });
 
+// submit
+let form = document.querySelector("form");
+let inputs = document.querySelectorAll("input");
+form.addEventListener("submit",function(dets){
+    dets.preventDefault();
+    console.log(inputs[0].value);
+    console.log(inputs[1].value); 
+    console.log(inputs[2].value); 
+    console.log(inputs[3].value); 
+});
+
 */
