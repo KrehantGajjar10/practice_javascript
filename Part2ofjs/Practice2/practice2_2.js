@@ -1,6 +1,6 @@
 /*
 
-// Common Events: click, input, change, submit, mouseover, keyup
+// Common Events: click, input, change, submit, mouseover, mouseout, mousemove, keyup
 
 // click
 let p = document.querySelector("p");
@@ -32,6 +32,16 @@ form.addEventListener("submit",function(dets){
     console.log(inputs[1].value); 
     console.log(inputs[2].value); 
     console.log(inputs[3].value); 
+});
+
+// mouseover & mouseout
+let main4 = document.querySelector("#main4");
+
+main4.addEventListener("mouseover",function () {
+    main4.style.backgroundColor = "yellow";
+});
+main4.addEventListener("mouseout",function () {
+    main4.style.backgroundColor = "red";
 });
 
 */
