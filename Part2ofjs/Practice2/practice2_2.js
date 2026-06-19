@@ -36,7 +36,6 @@ form.addEventListener("submit",function(dets){
 
 // mouseover & mouseout
 let main4 = document.querySelector("#main4");
-
 main4.addEventListener("mouseover",function () {
     main4.style.backgroundColor = "yellow";
 });
@@ -44,4 +43,10 @@ main4.addEventListener("mouseout",function () {
     main4.style.backgroundColor = "red";
 });
 
+//mousemove
+let main4 = document.querySelector("#main4");
+window.addEventListener("mousemove",function (dets) {
+    main4.style.top = dets.clientY + "px";
+    main4.style.left = dets.clientX + "px";
+});
 */
