@@ -1,6 +1,6 @@
 /*
 
-// Common Events: click, input, change, submit, mouseover, mouseout, mousemove, keyup
+// Common Events: click, input, change, submit, mouseover, mouseout, mousemove, keyup, keydown
 
 // click
 let p = document.querySelector("p");
@@ -49,4 +49,25 @@ window.addEventListener("mousemove",function (dets) {
     main4.style.top = dets.clientY + "px";
     main4.style.left = dets.clientX + "px";
 });
+
+// keyup :- fires only when the user releases the key
+let h2 = document.querySelector("h2");
+window.addEventListener("keyup", function(dets){
+    if (dets.key === " ") {
+        h2.textContent = "SPC";
+    } else {
+        h2.textContent = dets.key;
+    }
+});
+
+// keydown :- fires the exact moment the user presses a key down
+let h2 = document.querySelector("h2");
+window.addEventListener("keydown", function(dets){
+    if (dets.key === " ") {
+        h2.textContent = "SPC";
+    } else {
+        h2.textContent = dets.key;
+    }
+});
+
 */
