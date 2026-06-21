@@ -41,4 +41,8 @@ a.addEventListener("click", function () {           // True
 // in here, first it check capturing is ON/True like this order : a->b->c->button
 // Then second phase start (bubbling) like this order : button->c->b->a
 
+
+Event Bubbling: A DOM event propagation mechanism where an event starts on the target element and then travels upward through its parent elements.
+Event Delegation: A technique where a single event listener is attached to a parent element to handle events from its child elements, using event bubbling.
+
 */

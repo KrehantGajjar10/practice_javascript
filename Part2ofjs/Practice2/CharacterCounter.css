@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(31, 29, 29);
+    width: 100%;
+    height: 100%;
+}
+*{
+    color: white;
+}
+input{
+    color: black;
+}
+.container{
+    padding: 20px;
+}
+span{
+    color: green;
+}
