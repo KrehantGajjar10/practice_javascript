@@ -1,3 +1,49 @@
+// Uper part is optimise version
+
+function applyTheme(theme) {
+  document.body.classList.remove("light", "dark");
+  document.body.classList.add(theme);
+}
+
+function getSystemTheme() {
+  return window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+}
+
+// Initial theme
+const savedTheme = localStorage.getItem("theme");
+
+if (savedTheme) {
+  applyTheme(savedTheme);
+} else {
+  applyTheme(getSystemTheme());
+}
+
+// Listen for OS theme changes
+window
+  .matchMedia("(prefers-color-scheme: dark)")
+  .addEventListener("change", () => {
+    if (!localStorage.getItem("theme")) {
+      applyTheme(getSystemTheme());
+    }
+  });
+
+// Theme toggle button
+const btn = document.querySelector("button");
+
+btn?.addEventListener("click", () => {
+  const newTheme = document.body.classList.contains("dark") ? "light" : "dark";
+
+  applyTheme(newTheme);
+  localStorage.setItem("theme", newTheme);
+});
+
+
+
+
+
+/*
 function setLightOrDark() {
     document.body.classList.remove("light", "dark");
 
@@ -33,3 +79,4 @@ btn.addEventListener("click",function(){
        localStorage.setItem("theme","dark");
     }
 })
+*/
