@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding-top:30px;
+    background:#272424;
+}
+
+.alert-banner{
+    background:#22c55e;
+    color:rgb(0, 0, 0);
+    padding:14px 24px;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:500;
+    box-shadow:0 8px 20px rgba(34,197,94,.25);
+    opacity:1;
+    transform:translateY(0);
+    transition:all .4s ease;
+}
+
+/* Hidden state */
+.alert-banner.hide{
+    opacity:0;
+    transform:translateY(-20px);
+    pointer-events:none;
+}
